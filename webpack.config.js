@@ -3,9 +3,9 @@ var webpack = require('webpack');
 module.exports = {
     entry: [
       'babel-polyfill',
-      "./src/entry",
+      "./src/components/entry",
       'webpack/hot/dev-server',
-      
+
 
     ],
     output: {
@@ -13,7 +13,7 @@ module.exports = {
         filename: "./public/bundle.js"
     },
     devServer: {
-      contentBase: "./src",
+      contentBase: "./src/www",
       hot: true
     },
     module: {
