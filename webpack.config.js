@@ -3,7 +3,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: [
       'babel-polyfill',
-      "./src/components/entry",
+      "./src/App/entry",
       'webpack/hot/dev-server',
 
 

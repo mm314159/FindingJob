@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-  <h1>ffffaaddddaaf,  </h1>,
+  <h1>ffffaaffffffddddaaf,  </h1>,
   document.getElementById('example')
 );
