@@ -5,7 +5,7 @@ module.exports = {
       'babel-polyfill',
       "./src/entry",
       'webpack/hot/dev-server',
-      'webpack-dev-server/client?http://localhost:8080'
+      
     ],
     output: {
         path: __dirname,
