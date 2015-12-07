@@ -38,36 +38,17 @@ var ProductTable = React.createClass({
     }
 });
 
-var Selection = React.createClass({
-    handleValue: function (){
-      alert:'hi';
-    },
-  render: function() {
-    return (
-      < input type = 'checkbox' value={this.props.industryType} name="industry" onClick={this.handleValue}/>
-    );
-  }
-});
+
 
 
 var FilterableProductTable = React.createClass({
-    getInitialState: function() {
-      return {
-
-      };
-    },
-
-
-
-
     render: function() {
         return (
           <div>
-              <Selection />
               <ProductTable
               linkers={this.props.linkers}
                              />
-              <Selection value= {'Consulting'  }/>
+
           </div>
         );
     }
@@ -76,8 +57,8 @@ var FilterableProductTable = React.createClass({
 
 var linkers = [
   {category: 'Consulting', name: 'PWC', link: <a href="http://jobs.pwc.com/" target="_blank">PWC</a>},
-  {category: 'Consulting', name: 'GrantThorton', link: <a href="http://jobs.grantthornton.com/jobs-most-recent.aspx" target="_blank">Grant Thorton</a>},
-  {category: 'Consulting', name: 'Boston Consulting Group', link: <a href="http://www.bcg.com/careers/join/apply-bst/default.aspx" target="_blank">Boston Consulting Group</a>},
+  {category: 'Consulting', name: 'GrantThornton', link: <a href="http://jobs.grantthornton.com/jobs-most-recent.aspx" target="_blank">GrantThronton </a>},
+  {category: 'Consulting', name: 'Boston Consulting Group', link: <a href="http://www.bcg.com/careers/join/apply-bst/default.aspx" target="_blank"></a>},
   {category: 'Consulting', name: 'McKinsey & Company', link: <a href="http://www.mckinsey.com/careers/join_us/search_and_apply" target="_blank">McKinsey & Company</a>},
   {category: 'Consulting', name: 'Deloitte', link: <a href="https://jobs2.deloitte.com/us/en/" target="_blank">Deloitte</a>},
   {category: 'Consulting', name: 'Booz Allen Hamilton', link: <a href="http://careers.boozallen.com/search/" target="_blank">Booz Allen Hamilton</a>},

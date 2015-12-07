@@ -2,7 +2,7 @@
   "name": "findingjob",
   "version": "0.0.1",
   "description": "An app to aide one in finding a job.",
-  "main": "./src/App/entry.js",
+  "main": "./src/entry.js",
   "dependencies": {
     "babel-loader": "^6.0.0",
     "babel-polyfill": "^6.2.0",
