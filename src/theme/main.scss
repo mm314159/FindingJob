@@ -44,3 +44,12 @@ html, body {
   border-width: 0 120px 207.8px 120px;
   border-color: transparent transparent #251 transparent;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
+.borderOne{
+    margin-bottom: 10px;
+    border: solid 3px;
+}
